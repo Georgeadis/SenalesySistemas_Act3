@@ -147,7 +147,7 @@ def plot_original_only(fig, canvas, t, x, Fs):
 
 def crear_gui():
     root = tk.Tk()
-    root.title('Filtro de Señales — Actividad')
+    root.title('Señales y Sistemas - Actividad 3')
 
     mainfrm = ttk.Frame(root, padding=8)
     mainfrm.pack(fill=tk.BOTH, expand=True)
