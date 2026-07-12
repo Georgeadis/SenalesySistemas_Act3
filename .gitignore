@@ -43,3 +43,14 @@ htmlcov/
 # Misc
 .DS_Store
 Thumbs.db
+
+# Generated figures and outputs
+filtro_resultado.png
+fig_*.png
+
+# Temporary and backup files
+*.tmp
+*.bak
+
+# Wheels / packaging metadata
+pip-wheel-metadata/
