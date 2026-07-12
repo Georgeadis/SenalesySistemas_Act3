@@ -1,6 +1,6 @@
 # Señales y Sistemas — Actividad 3
 
-Este repositorio contiene `codigo_actividad3.py`, una interfaz gráfica (Tkinter) para:
+Este repositorio contiene `Georgeadis_Arias_ACT3-SyS`, una interfaz gráfica (Tkinter) para:
 
 - Generar señales de prueba (senoidal, cuadrada, pulso, ruidosa).
 - Diseñar filtros digitales: Butterworth (IIR), Chebyshev Tipo I (IIR) y FIR por ventana.
@@ -20,7 +20,7 @@ Uso rápido:
 2. Ejecutar:
 
 ```powershell
-py codigo_actividad3.py
+py Georgeadis_Arias_ACT3-SyS
 ```
 
 3. En la ventana: pulse **Generar señal** para ver la señal original; luego configure el filtro y pulse **Aplicar filtro**.
