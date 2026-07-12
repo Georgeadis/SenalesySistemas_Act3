@@ -5,6 +5,7 @@ from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from scipy import signal
 
+
 """
 codigo_actividad3.py
 GUI para generar señales, diseñar filtros (Butterworth, Chebyshev I, FIR por ventana),
@@ -13,6 +14,7 @@ aplicar los filtros y comparar señales antes/después en dominio tiempo y frecu
 Notas:
 - Ejecutar este script abrirá una ventana con controles y un área de graficado embebida.
 - Evita ejecutar código adicional al cerrar la GUI; el script termina cuando cierras la ventana.
+Fecha de creación: 2024-06-15
 """
 
 
