@@ -28,3 +28,4 @@ py Georgeadis_Arias_ACT3-SyS
 Nota: Para filtros `bandpass` introduce `Cutoff` como `low,high` (ej.: `40,120`).
 
 Autor: Georgeadis Arias
+Tutor: Ing. Luis Osvaldo Moreno Gaytán

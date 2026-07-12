@@ -15,6 +15,7 @@ Notas:
 - Ejecutar este script abrirá una ventana con controles y un área de graficado embebida.
 - Evita ejecutar código adicional al cerrar la GUI; el script termina cuando cierras la ventana.
 Fecha de creación: 2024-06-15
+Dia de entrega
 """
 
 
