@@ -1,0 +1,26 @@
+name: Build and Run suma
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build-and-run:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y nasm build-essential
+
+    - name: Assemble and link
+      run: |
+        nasm -f elf64 "suma .asm" -o suma.o
+        ld -o suma suma.o
+
+    - name: Run with input
+      run: |
+        printf "3\n4\n" | ./suma

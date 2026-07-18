@@ -13,6 +13,8 @@ aplicar los filtros y comparar señales antes/después en dominio tiempo y frecu
 Notas:
 - Ejecutar este script abrirá una ventana con controles y un área de graficado embebida.
 - Evita ejecutar código adicional al cerrar la GUI; el script termina cuando cierras la ventana.
+Fecha: 2024-06-12
+Dia de entrega: 2024-06-12
 """
 
 
