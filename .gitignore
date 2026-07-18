@@ -54,3 +54,6 @@ fig_*.png
 
 # Wheels / packaging metadata
 pip-wheel-metadata/
+
+# Exclude the upload script (kept locally)
+Subir_a_Github.ps1
